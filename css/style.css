@@ -64,7 +64,7 @@
 
 .nav-menu ul li {
     padding: 5px 10px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .nav-menu ul.first-menu {
@@ -234,6 +234,43 @@ section#fifth .btn-custom {
 section#fifth .d-none.d-md-flex img{
     width: 100%;
 }
+
+/* MAIN section sixth  */
+section#sixth {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+section#sixth p{
+    font-size: 18px;
+}
+section#sixth img {
+    width: 100%;
+    margin-top: 48px;
+}
+
+/* MAIN section seventh  */
+section#seventh {
+    background-color: rgb(22, 28, 59);
+}
+section#seventh .col-12.col-md-6 img {
+    width: 60%;
+    margin-top: 48px;
+}
+section#seventh p {
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+section#seventh .btn-custom {
+    background-color: white;
+    color: black;
+    margin-bottom: 48px;
+}
+section#seventh .d-none.d-md-flex img {
+    width: 100%;
+}
+
 
 
 
