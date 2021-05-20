@@ -71,6 +71,9 @@
     flex-grow: 1;
     flex-basis: auto;
 }
+.nav-menu ul.first-menu img {
+    width: 60px;
+}
 .nav-menu ul li i.fa-chevron-down {
     font-size: 0.7em;
     color: #aaa;
