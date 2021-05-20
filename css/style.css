@@ -8,7 +8,7 @@
     padding: 8px 15px;
     color: white;
     display: inline-block;
-    font-weight: bold;
+    font-weight: 500;
 }
 .btn-custom-gray {
     background-color: #545454;
@@ -83,7 +83,7 @@ header .bg-fluid {
 }
 .jumbo-container {    
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 24px;
 }
 .jumbo-container * {
@@ -191,6 +191,9 @@ section#third h6 {
 }
 
 /* MAIN forth section  */
+section#fourth {
+    margin-bottom: 24px;
+}
 section#fourth h1{
     margin-top: 24px;
 }
@@ -198,9 +201,37 @@ section#fourth p {
     margin-top: 24px;
     line-height: 22px;
     font-size: 20px;
+    margin-bottom: 36px;
 }
 
 section#fourth img {
+    width: 100%;
+}
+section#fourth .btn-custom {
+    margin-bottom: 24px;
+}
+
+/* MAIN fifth section  */
+section#fifth {
+    background-color: rgb(190, 188, 187);
+    font-weight: 600;
+}
+section#fifth .col-12.col-md-6 img {
+    width: 60%;
+    margin-top: 36px;  /* useful for margin in xs-sm devices, without using media query */
+}
+section#fifth p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+section#fifth .btn-custom {
+    color: rgb(6, 117, 207);
+    background-color: rgb(217,218,220);
+    font-weight: bold;
+    margin-bottom: 36px; /* useful for margin in xs-sm devices, without using media query */
+}
+
+section#fifth .d-none.d-md-flex img{
     width: 100%;
 }
 
