@@ -1,0 +1,109 @@
+/* utility classes  */
+.nav-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-logo svg {
+    width: 100px;
+}
+
+.bg-black {
+    background-color: black;
+    padding: 10px;
+}
+
+.second-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* nav until lg-screen  */
+.logo-container {
+    flex-grow: 1;
+    flex-basis: auto;
+}
+.hamburger-menu i.fa-bars {
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: #888;
+    padding: 5px 10px;
+}
+
+/* nav from lg-screen */
+.second-nav ul {
+    display: none;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 0;   /* reset for bootstrap  */    
+    margin-bottom: 0;  /* reset for bootstrap */
+}
+
+.second-nav ul li {
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.second-nav ul.first-menu {
+    flex-grow: 1;
+    flex-basis: auto;
+}
+.second-nav ul li i.fa-chevron-down {
+    font-size: 0.7em;
+    color: #aaa;
+    margin-left: 5px;
+}
+
+.btn-custom{
+    border-radius: 30px;
+    background-color: #545454;
+    padding: 5px 10px;
+    color: white;
+}
+
+/* HEADER  */
+.bg-fluid {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbo-container {    
+    color: white;
+    font-weight: bold;
+}
+.jumbo-container * {
+    margin-bottom: 24px;
+}
+.jumbo-container img {
+    width: 70%;
+    margin-top: 400px;
+}
+
+.jumbo-container p {
+    font-size: 18px;
+}
+
+.orange {
+    background-color: rgb(205, 61, 15);
+    display: inline-block;
+    padding: 8px 15px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    .logo-container,
+    .hamburger-menu {
+        display: none;
+    }
+
+    .second-nav ul {
+        display: flex;
+    }
+}
