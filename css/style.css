@@ -130,6 +130,13 @@ section#first img {
     width: 100%;
 }
 
+section#first .row.align-items-center div:nth-child(2) {
+    margin-top: 48px;    /* useful for margin in xs-sm devices, without using media query */
+}
+
+
+
+
 
 
 
