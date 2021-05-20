@@ -79,11 +79,10 @@
 header .bg-fluid {
     background-image: url(../img/jumbo-bg.png);
 }
-
-
 .jumbo-container {    
     color: white;
     font-weight: bold;
+    margin-bottom: 48px;
 }
 .jumbo-container * {
     margin-bottom: 24px;
@@ -148,7 +147,9 @@ section#first .img-container-game  {
 section#first p {
     font-size: 18px;
 }
-
+section#first .col-4.col-md {
+    border-bottom: 2px solid white;
+}
 section#first .col-4.col-md:hover {    
     border-bottom: 2px solid rgb(64, 149, 218);
 }
@@ -159,13 +160,29 @@ section#second.bg-fluid {
 }
 
 section#second.bg-fluid .jumbo-container img {
-    margin-top: 50px;
+    margin-top: 48px;
 }
 
  /* MAIN third section  */
- .bg-gray-strong {
+.bg-gray-strong {
     background-color: #313131;
- }
+    color: white;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}  /* usare padding sul fluid o margin sul container  */
+section#third h4 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+section#third img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+section#third h6 {
+    font-weight: bold;
+    margin-bottom: 48px;
+}
 
 
 
