@@ -97,14 +97,20 @@
 }
 
 
-.img-container-game img {
+header .img-container-game img {
     width: 100%;
     border-radius: 20px;
     padding: 3px;
     border-radius: 20px;
-    border: 2px solid rgb(64, 149, 218);
     margin-top: 24px;
     margin-bottom: 24px;
+    border: 2px solid white;
+
+}
+
+header .img-container-game img:hover {
+    border: 2px solid rgb(64, 149, 218);
+
 }
 
 /* MAIN  */
@@ -112,27 +118,41 @@ section#first {
     margin-top: 96px;
     margin-bottom: 96px;
 }
-section#first span {
+.span-blue {
     color: rgb(6, 117, 207);
     font-weight: bold;
 }
 
-section#first p {
+.p-gray {
     color: #888;
     font-weight: bold;
     margin-top: 24px;
     margin-bottom: 24px;
-    font-size: 18px;
-
+ 
 }
 
-section#first img {
+section#first  img {
     width: 100%;
 }
 
 section#first .row.align-items-center div:nth-child(2) {
     margin-top: 48px;    /* useful for margin in xs-sm devices, without using media query */
 }
+section#first .img-container-game img{
+    width: 60%;    
+}
+section#first .img-container-game  {
+    text-align: center;
+}
+section#first p {
+    font-size: 18px;
+}
+
+section#first .col-4.col-md:hover {    
+    border-bottom: 2px solid rgb(64, 149, 218);
+}
+
+
 
 
 
