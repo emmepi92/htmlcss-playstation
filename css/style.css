@@ -5,11 +5,13 @@
 }
 .btn-custom{
     border-radius: 30px;
-    background-color: #545454;
     padding: 8px 15px;
     color: white;
     display: inline-block;
     font-weight: bold;
+}
+.btn-custom-gray {
+    background-color: #545454;
 }
 .btn-custom-orange {
     background-color: rgb(205, 61, 15);
@@ -82,7 +84,7 @@ header .bg-fluid {
 .jumbo-container {    
     color: white;
     font-weight: bold;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 .jumbo-container * {
     margin-bottom: 24px;
@@ -95,7 +97,6 @@ header .bg-fluid {
 .jumbo-container p {
     font-size: 18px;
 }
-
 
 header .img-container-game img {
     width: 100%;
@@ -110,7 +111,6 @@ header .img-container-game img {
 
 header .img-container-game img:hover {
     border: 2px solid rgb(64, 149, 218);
-
 }
 
 /* MAIN  first section*/
@@ -125,10 +125,9 @@ section#first {
 
 .p-gray {
     color: #888;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 24px;
     margin-bottom: 24px;
- 
 }
 
 section#first  img {
@@ -138,18 +137,23 @@ section#first  img {
 section#first .row.align-items-center div:nth-child(2) {
     margin-top: 48px;    /* useful for margin in xs-sm devices, without using media query */
 }
+
 section#first .img-container-game img{
     width: 60%;    
 }
+
 section#first .img-container-game  {
     text-align: center;
 }
+
 section#first p {
     font-size: 18px;
 }
+
 section#first .col-4.col-md {
     border-bottom: 2px solid white;
 }
+
 section#first .col-4.col-md:hover {    
     border-bottom: 2px solid rgb(64, 149, 218);
 }
@@ -160,7 +164,7 @@ section#second.bg-fluid {
 }
 
 section#second.bg-fluid .jumbo-container img {
-    margin-top: 48px;
+    margin-top: 24px;
 }
 
  /* MAIN third section  */
@@ -168,23 +172,37 @@ section#second.bg-fluid .jumbo-container img {
     background-color: #313131;
     color: white;
     padding-top: 48px;
-    padding-bottom: 48px;
 }  /* usare padding sul fluid o margin sul container  */
+
 section#third h4 {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 section#third img {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 5px;
 }
+
 section#third h6 {
     font-weight: bold;
     margin-bottom: 48px;
 }
 
+/* MAIN forth section  */
+section#fourth h1{
+    margin-top: 24px;
+}
+section#fourth p {
+    margin-top: 24px;
+    line-height: 22px;
+    font-size: 20px;
+}
 
+section#fourth img {
+    width: 100%;
+}
 
 
 
