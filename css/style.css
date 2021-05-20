@@ -271,6 +271,51 @@ section#seventh .d-none.d-md-flex img {
     width: 100%;
 }
 
+/* MAIN section eighth  */
+section#eighth {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+section#eighth h2{
+    margin-bottom: 48px;
+}
+
+section#eighth img {
+    width: 100%;
+    margin-bottom: 48px;
+}
+/* FOOTER  */
+footer {
+    padding-top: 48px;
+    background-color: rgb(0, 67, 156);
+    color: white;
+}
+
+footer i.fa-globe {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+footer svg path {
+    fill: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer svg {
+    width: 150px;
+}
+
+footer .footer-item {
+    margin-bottom: 48px;
+}
+
+footer .footer-item:last-child svg {
+    margin-bottom: 12px;
+}
+
 
 
 
