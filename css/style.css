@@ -21,6 +21,9 @@ a {
     color: inherit;
     text-decoration: none;
 }
+a:hover {
+    color: inherit;
+}
 
 .border-btn-custom {
     display: inline-block;
@@ -109,12 +112,13 @@ nav.nav-menu li.border-btn-custom{
     border: 2px solid white;
 }
 
-nav.nav-menu  ul:last-child  li:last-child a:hover i{
- color: black;
-}
-
-nav.nav-menu li a:hover i {
+nav.nav-menu li a:hover i,
+nav.nav-menu li:hover {
     color: blue;
+}
+/* for lens to stay black in hover  */
+nav.nav-menu  ul:last-child  li:last-child:hover i{
+ color: black;
 }
 
 nav.nav-menu li.border-btn-custom:hover{
@@ -138,14 +142,15 @@ header .bg-fluid {
     margin-bottom: 24px;
 }
 
-
 .jumbo-container img {
     width: 70%;
     margin-top: 400px;
+    margin-bottom: 24px;
 }
 
 .jumbo-container p {
     font-size: 18px;
+    margin-top: 24px;
 }
 
 header .img-container-game img {
@@ -169,7 +174,8 @@ header .img-container-game img:hover {
     opacity: 1;
 }
 
-header .border-btn-custom:hover {
+header .border-btn-custom:hover, 
+section#second .border-btn-custom:hover{
     border: 2px solid rgb(205, 61, 15);
 }
 
@@ -188,7 +194,8 @@ section#first  img {
     width: 100%;
 }
 
-section#first .btn-custom {
+section#first .btn-custom ,
+section#fourth .btn-custom {
     background-color: rgb(45, 100, 230);
 }
 
@@ -213,12 +220,17 @@ section#first .col-4.col-md {
     border-bottom: 2px solid white;
 }
 
+section#first .border-btn-custom:hover,
+section#fourth .border-btn-custom:hover {
+    border: 2px solid rgb(45, 100, 230);
+}
+
 section#first .col-4.col-md:hover {    
     border-bottom: 2px solid rgb(64, 149, 218);
 }
+
 section#first .col-4.col-md:hover img {
     opacity: 1;
-
 }
 
 /* MAIN second section  */
@@ -273,7 +285,7 @@ section#fourth img {
     width: 100%;
 }
 
-section#fourth .btn-custom {
+section#fourth .border-btn-custom {
     margin-bottom: 24px;
 }
 
@@ -297,11 +309,18 @@ section#fifth .btn-custom {
     color: rgb(6, 117, 207);
     background-color: rgb(217,218,220);
     font-weight: bold;
+}
+section#fifth .border-btn-custom {
     margin-bottom: 36px; /* useful for margin in xs-sm devices, without using media query */
+
 }
 
 section#fifth .d-none.d-md-flex img{
     width: 100%;
+}
+
+section#fifth .border-btn-custom:hover {
+    border: 2px solid rgb(217,218,220);
 }
 
 /* MAIN section sixth  */
@@ -337,11 +356,19 @@ section#seventh p {
 section#seventh .btn-custom {
     background-color: white;
     color: black;
+    
+}
+
+section#seventh .border-btn-custom {
     margin-bottom: 48px;
 }
 
 section#seventh .d-none.d-md-flex img {
     width: 100%;
+}
+
+section#seventh .border-btn-custom:hover {
+    border: 2px solid white;
 }
 
 /* MAIN section eighth  */
