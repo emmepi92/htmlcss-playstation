@@ -10,14 +10,11 @@
     display: inline-block;
     font-weight: 500;
 }
-.btn-custom-gray {
-    background-color: #545454;
-}
-.btn-custom-orange {
-    background-color: rgb(205, 61, 15);
-}
-.btn-custom-blue {
-    background-color: rgb(45, 100, 230);
+.p-gray {
+    color: #888;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 /* black nav  */
@@ -25,6 +22,7 @@
     display: flex;
     justify-content: flex-end;
 }
+
 .nav-brand svg {
     width: 80px;
     margin: 10px;
@@ -45,6 +43,7 @@
     flex-grow: 1;
     flex-basis: auto;
 }
+
 .hamburger-menu i.fa-bars {
     font-size: 25px;
     border-radius: 5px;
@@ -71,9 +70,15 @@
     flex-grow: 1;
     flex-basis: auto;
 }
+
 .nav-menu ul.first-menu img {
     width: 60px;
 }
+
+.nav-menu .btn-custom {
+    background-color: #545454;
+}
+
 .nav-menu ul li i.fa-chevron-down {
     font-size: 0.7em;
     color: #aaa;
@@ -84,14 +89,17 @@
 header .bg-fluid {
     background-image: url(../img/jumbo-bg.png);
 }
+
 .jumbo-container {    
     color: white;
     font-weight: 600;
     margin-bottom: 24px;
 }
+
 .jumbo-container * {
     margin-bottom: 24px;
 }
+
 .jumbo-container img {
     width: 70%;
     margin-top: 400px;
@@ -109,7 +117,10 @@ header .img-container-game img {
     margin-top: 24px;
     margin-bottom: 24px;
     border: 2px solid white;
+}
 
+header .btn-custom {
+    background-color: rgb(205, 61, 15);
 }
 
 header .img-container-game img:hover {
@@ -121,20 +132,18 @@ section#first {
     margin-top: 96px;
     margin-bottom: 96px;
 }
+
 .span-blue {
     color: rgb(6, 117, 207);
     font-weight: bold;
 }
 
-.p-gray {
-    color: #888;
-    font-weight: 600;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
 section#first  img {
     width: 100%;
+}
+
+section#first .btn-custom {
+    background-color: rgb(45, 100, 230);
 }
 
 section#first .row.align-items-center div:nth-child(2) {
@@ -197,9 +206,11 @@ section#third h6 {
 section#fourth {
     margin-bottom: 24px;
 }
+
 section#fourth h1{
     margin-top: 24px;
 }
+
 section#fourth p {
     margin-top: 24px;
     line-height: 22px;
@@ -210,6 +221,7 @@ section#fourth p {
 section#fourth img {
     width: 100%;
 }
+
 section#fourth .btn-custom {
     margin-bottom: 24px;
 }
@@ -219,14 +231,17 @@ section#fifth {
     background-color: rgb(190, 188, 187);
     font-weight: 600;
 }
+
 section#fifth .col-12.col-md-6 img {
     width: 60%;
     margin-top: 36px;  /* useful for margin in xs-sm devices, without using media query */
 }
+
 section#fifth p {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 section#fifth .btn-custom {
     color: rgb(6, 117, 207);
     background-color: rgb(217,218,220);
@@ -256,20 +271,24 @@ section#sixth img {
 section#seventh {
     background-color: rgb(22, 28, 59);
 }
+
 section#seventh .col-12.col-md-6 img {
     width: 60%;
     margin-top: 48px;
 }
+
 section#seventh p {
     color: white;
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 section#seventh .btn-custom {
     background-color: white;
     color: black;
     margin-bottom: 48px;
 }
+
 section#seventh .d-none.d-md-flex img {
     width: 100%;
 }
@@ -279,6 +298,7 @@ section#eighth {
     margin-top: 48px;
     margin-bottom: 48px;
 }
+
 section#eighth h2{
     margin-bottom: 48px;
 }
@@ -287,6 +307,7 @@ section#eighth img {
     width: 100%;
     margin-bottom: 48px;
 }
+
 /* FOOTER  */
 footer {
     padding-top: 48px;
@@ -306,6 +327,9 @@ footer svg path {
 footer ul {
     list-style-type: none;
 }
+footer ul li {
+    margin-bottom: 10px;
+}
 
 footer svg {
     width: 150px;
@@ -318,24 +342,6 @@ footer .footer-item {
 footer .footer-item:last-child svg {
     margin-bottom: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 992px) {
     .logo-container,
