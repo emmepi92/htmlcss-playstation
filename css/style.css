@@ -17,6 +17,18 @@
     margin-bottom: 24px;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.border-btn-custom {
+    display: inline-block;
+    padding: 2px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
 /* black nav  */
 .nav-brand {
     display: flex;
@@ -43,7 +55,7 @@ nav.nav-menu{
     z-index: 1001;
 }
 
-/* nav until lg-screen  */
+/* nav from xs-screen to md-screen devices  */
 .logo-container {
     flex-grow: 1;
     flex-basis: auto;
@@ -57,7 +69,7 @@ nav.nav-menu{
     padding: 5px 10px;
 }
 
-/* nav from lg-screen */
+/* nav from lg-screen devices */
 .nav-menu ul {
     display: none;
     list-style-type: none;
@@ -82,7 +94,7 @@ nav.nav-menu{
 }
 
 .nav-menu .btn-custom {
-    background-color: #545454;
+    background-color: #333;
 }
 
 .nav-menu ul li i.fa-chevron-down {
@@ -90,6 +102,30 @@ nav.nav-menu{
     color: #aaa;
     margin-left: 5px;
 }
+
+nav.nav-menu li.border-btn-custom{
+    padding: 2px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+nav.nav-menu  ul:last-child  li:last-child a:hover i{
+ color: black;
+}
+
+nav.nav-menu li a:hover i {
+    color: blue;
+}
+
+nav.nav-menu li.border-btn-custom:hover{
+    border: 2px solid black;
+    opacity: 0.8;
+}
+
+nav.nav-menu li.border-btn-custom:hover a{
+color: white;
+}
+
 
 /* HEADER  */
 header .bg-fluid {
@@ -102,9 +138,6 @@ header .bg-fluid {
     margin-bottom: 24px;
 }
 
-.jumbo-container * {
-    margin-bottom: 24px;
-}
 
 .jumbo-container img {
     width: 70%;
@@ -123,6 +156,7 @@ header .img-container-game img {
     margin-top: 24px;
     margin-bottom: 24px;
     border: 2px solid white;
+    opacity: 0.8;
 }
 
 header .btn-custom,
@@ -132,6 +166,11 @@ section#second .btn-custom {
 
 header .img-container-game img:hover {
     border: 2px solid rgb(64, 149, 218);
+    opacity: 1;
+}
+
+header .border-btn-custom:hover {
+    border: 2px solid rgb(205, 61, 15);
 }
 
 /* MAIN  first section*/
@@ -158,7 +197,8 @@ section#first .row.align-items-center div:nth-child(2) {
 }
 
 section#first .img-container-game img{
-    width: 60%;    
+    width: 60%; 
+    opacity: 0.70;   
 }
 
 section#first .img-container-game  {
@@ -175,6 +215,10 @@ section#first .col-4.col-md {
 
 section#first .col-4.col-md:hover {    
     border-bottom: 2px solid rgb(64, 149, 218);
+}
+section#first .col-4.col-md:hover img {
+    opacity: 1;
+
 }
 
 /* MAIN second section  */
