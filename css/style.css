@@ -421,6 +421,10 @@ footer .footer-item:last-child svg {
     margin-bottom: 12px;
 }
 
+footer .footer-item:last-child a {
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 992px) {
     .logo-container,
     .hamburger-menu {
