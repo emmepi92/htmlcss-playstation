@@ -71,7 +71,8 @@
     flex-basis: auto;
 }
 
-.nav-menu ul.first-menu img {
+.nav-menu ul.first-menu img,
+.nav-menu img {
     width: 60px;
 }
 
