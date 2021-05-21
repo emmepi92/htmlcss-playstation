@@ -32,10 +32,15 @@
     background-color: black;
 }
 
-.nav-menu{
+nav.nav-menu{
     display: flex;
     align-items: center;
     width: 100%;
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1001;
 }
 
 /* nav until lg-screen  */
