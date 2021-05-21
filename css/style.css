@@ -74,7 +74,6 @@ nav.nav-menu{
 
 /* nav from lg-screen devices */
 .nav-menu ul {
-    display: none;
     list-style-type: none;
     align-items: center;
     padding-left: 0;   /* reset for bootstrap  */    
@@ -404,6 +403,7 @@ footer svg path {
 
 footer ul {
     list-style-type: none;
+    margin-top: 5px;
 }
 footer ul li {
     margin-bottom: 10px;
@@ -425,7 +425,8 @@ footer .footer-item:last-child a {
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 992px) {
+/* repleced with Bootstrap's d-none/d-flex/d-block  */
+/* @media only screen and (min-width: 992px) {
     .logo-container,
     .hamburger-menu {
         display: none;
@@ -434,4 +435,4 @@ footer .footer-item:last-child a {
     .nav-menu ul {
         display: flex;
     }
-}
+} */
