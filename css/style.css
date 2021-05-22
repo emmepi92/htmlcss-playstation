@@ -130,23 +130,10 @@ color: white;
 /* HEADER  */
 header .bg-fluid {
     background-image: url(../img/jumbo-bg.png);
-}
-
-.jumbo-container {    
-    color: white;
-    font-weight: 600;
-    margin-bottom: 24px;
-}
-
-.jumbo-container img {
-    width: 70%;
-    margin-top: 400px;
-    margin-bottom: 24px;
-}
-
-.jumbo-container p {
-    font-size: 18px;
-    margin-top: 24px;
+    height: 700px;   
+    /* needed for animation jumbo-text,
+     animations don't work with display:none
+    */
 }
 
 #bg-jumbo {
@@ -159,6 +146,39 @@ header .bg-fluid {
     45% {background-image: url(../img/jumbo-bg.png);}
     50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
     95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
+}
+
+[id^="jumbo"] {
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-name: jumbo-text;
+}
+#jumbo-2 {
+    animation-delay: 5s;
+}
+
+@keyframes jumbo-text {
+    0% {height: 0; overflow: hidden;}
+    50% {height: 0; overflow: hidden;}
+    51% {height: auto}
+    100% {height: auto;}   
+}
+
+.jumbo-container {    
+    color: white;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.jumbo-container img {
+    width: 70%;
+    margin-top: 200px;
+    margin-bottom: 24px;
+}
+
+.jumbo-container p {
+    font-size: 18px;
+    margin-top: 24px;
 }
 
 header .img-container-game img {
