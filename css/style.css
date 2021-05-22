@@ -165,15 +165,15 @@ header .bg-fluid {
     0% {height: 0; overflow: hidden;}
     50% {height: 0; overflow: hidden;}
     51% {height: auto;}      
-    100% {height: auto;}   
+    98% {height: auto;}   
 }
 
 .jumbo-container {    
     color: white;
     font-weight: 600;
     background-color: rgba(0,0,0,.4);
-    padding: 10px;
     border-radius: 30px;
+    padding: 0 5px;
 }
 
 .jumbo-container img {
