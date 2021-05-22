@@ -211,7 +211,7 @@ section#second .border-btn-custom:hover{
 @keyframes img-animation {
     0% {border: 3px solid rgba(45, 100, 230); opacity: 1;}
     16% {border: 3px solid rgba(45, 100, 230);opacity: 1;}
-    17% {border: 3px solid white;opacity: 0.8;}  
+    17% {border: 3px solid white;opacity: 0.8;} 
 }
 
 /* MAIN  first section*/
