@@ -130,6 +130,10 @@ color: white;
 /* HEADER  */
 header .bg-fluid {
     background-image: url(../img/jumbo-bg.png);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     height: 700px;   
     /* needed for animation jumbo-text,
      animations don't work with display:none
@@ -148,31 +152,33 @@ header .bg-fluid {
     95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
 }
 
-[id^="jumbo"] {
+[id^="text-jumbo"] {
     animation-iteration-count: infinite;
     animation-duration: 10s;
     animation-name: jumbo-text;
 }
-#jumbo-2 {
+#text-jumbo-2 {
     animation-delay: 5s;
 }
 
 @keyframes jumbo-text {
     0% {height: 0; overflow: hidden;}
     50% {height: 0; overflow: hidden;}
-    51% {height: auto}
+    51% {height: auto;}      
     100% {height: auto;}   
 }
 
 .jumbo-container {    
     color: white;
     font-weight: 600;
-    margin-bottom: 24px;
+    background-color: rgba(0,0,0,.4);
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .jumbo-container img {
     width: 70%;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     margin-bottom: 24px;
 }
 
