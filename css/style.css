@@ -132,9 +132,6 @@ header .bg-fluid {
     background-image: url(../img/jumbo-bg.png);
     padding-bottom: 50px;
     padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;  
 }
 
 #bg-jumbo {
@@ -155,6 +152,7 @@ header .bg-fluid {
     background-color: rgba(0,0,0,.4);
     border-radius: 30px;
     padding: 5px;
+    visibility: hidden;
 }
 
 .jumbo-container img {
@@ -485,28 +483,26 @@ footer .footer-item:last-child svg {
     margin-bottom: 12px;
 }
 
+
 @media screen and (min-width: 992px) {
 
     [id^="text-jumbo"] {
         animation-iteration-count: infinite;
         animation-duration: 10s;
         animation-name: jumbo-text;
-    }
+    } 
 
     #text-jumbo-2 {
         animation-delay: 5s;
     }    
 
     @keyframes jumbo-text {
-        0% {visibility: hidden;}
-        50% {visibility: hidden;}
-        51% {visibility: visible;}
-        99% {visibility: visible;}
+        /* 0% {visibility: hidden} */
+        45% {visibility: visible;}
+        46% {visibility: hidden;}
+        100% {visibility: hidden;}
+        /* 86% {visibility: hidden;} */
     }
     /* can't use animation with display:none 
     only way to play is to use the visibility */
 }
-    
-
-
-
