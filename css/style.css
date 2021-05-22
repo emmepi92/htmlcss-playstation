@@ -154,7 +154,7 @@ header .bg-fluid {
     font-weight: 600;
     background-color: rgba(0,0,0,.4);
     border-radius: 30px;
-    padding: 0 5px;
+    padding: 5px;
 }
 
 .jumbo-container img {
