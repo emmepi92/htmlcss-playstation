@@ -58,14 +58,16 @@ nav.nav-menu{
 .logo-container {
     flex-grow: 1;
     flex-basis: auto;
+    padding: 5px 10px;   /* same padding like li in expanded nav, so the height will not change */
 }
 
-.hamburger-menu i.fa-bars {
-    font-size: 25px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    color: #888;
-    padding: 5px 10px;
+
+/* using bootstrap's hamburger menu */
+.navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 /* nav from lg-screen devices */
@@ -416,18 +418,3 @@ footer .footer-item:last-child svg {
     margin-bottom: 12px;
 }
 
-footer .footer-item:last-child a {
-    text-decoration: underline;
-}
-
-/* repleced with Bootstrap's d-none/d-flex/d-block  */
-/* @media only screen and (min-width: 992px) {
-    .logo-container,
-    .hamburger-menu {
-        display: none;
-    }
-
-    .nav-menu ul {
-        display: flex;
-    }
-} */
