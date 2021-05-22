@@ -378,6 +378,12 @@ section#sixth p{
 section#sixth img {
     width: 100%;
     margin-top: 48px;
+    filter: grayscale(50%);
+}
+section#sixth img:hover {
+    filter: grayscale(0);
+    transform: scale(0.9, 0.9);
+
 }
 
 /* MAIN section seventh  */
@@ -430,6 +436,7 @@ section#eighth img {
 }
 section#eighth a:hover img {
     transform: scale(1.1,1.1);
+    box-shadow: 10px 10px 10px gray;
 }
 
 
