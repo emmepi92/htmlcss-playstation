@@ -156,7 +156,7 @@ header .img-container-game img {
     border-radius: 20px;
     margin-top: 24px;
     margin-bottom: 24px;
-    border: 2px solid white;
+    border: 3px solid white;
     opacity: 0.8;
 }
 
@@ -166,7 +166,7 @@ section#second .btn-custom {
 }
 
 header .img-container-game img:hover {
-    border: 2px solid rgb(64, 149, 218);
+    border: 3px solid rgb(64, 149, 218);
     opacity: 1;
 }
 
@@ -175,6 +175,33 @@ section#second .border-btn-custom:hover{
     border: 2px solid rgb(205, 61, 15);
 }
 
+[id^="img-container"] {
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-name: img-animation;
+}
+
+#img-container-2{
+    animation-delay:5s;
+}
+#img-container-3{
+    animation-delay:10s;
+}
+#img-container-4{
+    animation-delay:15s;
+}
+#img-container-5{
+    animation-delay:20s;
+}
+#img-container-6{
+    animation-delay:25s;
+}
+
+@keyframes img-animation {
+    0% {border: 3px solid rgba(64, 149, 218); opacity: 1;}
+    16% {border: 3px solid rgba(64, 149, 218);opacity: 1;}
+    17% {border: 3px solid white;opacity: 0.8;}   
+}
 /* MAIN  first section*/
 section#first {
     margin-top: 96px;
