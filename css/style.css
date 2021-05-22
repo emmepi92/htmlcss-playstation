@@ -130,14 +130,11 @@ color: white;
 /* HEADER  */
 header .bg-fluid {
     background-image: url(../img/jumbo-bg.png);
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    height: 700px;   
-    /* needed for animation jumbo-text,
-     animations don't work with display:none
-    */
+    justify-content: flex-end;  
 }
 
 #bg-jumbo {
@@ -150,22 +147,6 @@ header .bg-fluid {
     45% {background-image: url(../img/jumbo-bg.png);}
     50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
     95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
-}
-
-[id^="text-jumbo"] {
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-name: jumbo-text;
-}
-#text-jumbo-2 {
-    animation-delay: 5s;
-}
-
-@keyframes jumbo-text {
-    0% {height: 0; overflow: hidden;}
-    50% {height: 0; overflow: hidden;}
-    51% {height: auto;}      
-    98% {height: auto;}   
 }
 
 .jumbo-container {    
@@ -501,4 +482,29 @@ footer .footer-item {
 footer .footer-item:last-child svg {
     margin-bottom: 12px;
 }
+
+@media screen and (min-width: 992px) {
+
+    [id^="text-jumbo"] {
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-name: jumbo-text;
+    }
+
+    #text-jumbo-2 {
+        animation-delay: 5s;
+    }    
+
+    @keyframes jumbo-text {
+        0% {visibility: hidden;}
+        50% {visibility: hidden;}
+        51% {visibility: visible;}
+        99% {visibility: visible;}
+    }
+    /* can't use animation with display:none 
+    only way to play is to use the visibility */
+}
+    
+
+
 
