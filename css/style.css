@@ -113,7 +113,7 @@ nav.nav-menu li a:hover i,
 nav.nav-menu li:hover {
     color: blue;
 }
-/* for lens to stay black in hover  */
+        /* for lens to stay black in hover  */
 nav.nav-menu  ul:last-child  li:last-child:hover i{
  color: black;
 }
@@ -132,7 +132,6 @@ header .bg-fluid {
     background-image: url(../img/jumbo-bg.png);
 }
 
-
 .jumbo-container {    
     color: white;
     font-weight: 600;
@@ -150,13 +149,22 @@ header .bg-fluid {
     margin-top: 24px;
 }
 
+#bg-jumbo {
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-name: jumbo-animation;
+}
 
+@keyframes jumbo-animation {
+    45% {background-image: url(../img/jumbo-bg.png);}
+    50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
+    95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
+}
 
 header .img-container-game img {
     width: 100%;
     border-radius: 20px;
     padding: 3px;
-    border-radius: 20px;
     margin-top: 24px;
     margin-bottom: 24px;
     border: 3px solid white;
@@ -168,26 +176,9 @@ section#second .btn-custom {
     background-color: rgb(205, 61, 15);
 }
 
-header .img-container-game img:hover {
-    border: 3px solid rgb(64, 149, 218);
-    opacity: 1;
-}
-
 header .border-btn-custom:hover, 
 section#second .border-btn-custom:hover{
     border: 2px solid rgb(205, 61, 15);
-}
-
-#bg-jumbo {
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-name: jumbo-animation;
-}
-
-@keyframes jumbo-animation {
-    45% {background-image: url(../img/jumbo-bg.png);}
-    50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
-    95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
 }
 
 [id^="img-container"] {
@@ -215,8 +206,9 @@ section#second .border-btn-custom:hover{
 @keyframes img-animation {
     0% {border: 3px solid rgba(45, 100, 230); opacity: 1;}
     16% {border: 3px solid rgba(45, 100, 230);opacity: 1;}
-    17% {border: 3px solid white;opacity: 0.8;}   
+    17% {border: 3px solid white;opacity: 0.8;}  
 }
+
 /* MAIN  first section*/
 section#first {
     margin-top: 96px;
@@ -269,6 +261,8 @@ section#first .col-4.col-md:hover {
 
 section#first .col-4.col-md:hover img {
     opacity: 1;
+    transform: scale(1.1,1.1);
+
 }
 
 /* MAIN second section  */
@@ -303,6 +297,10 @@ section#third h6 {
     margin-bottom: 48px;
 }
 
+section#third img:hover {
+    box-shadow: 0 10px 10px black;
+}
+
 /* MAIN forth section  */
 section#fourth {
     margin-bottom: 24px;
@@ -319,10 +317,17 @@ section#fourth p {
     margin-bottom: 36px;
 }
 
+section#fourth h2 {
+    margin-top: 10px;
+}
+
+
 section#fourth img {
     width: 100%;
 }
-
+section#fourth .img-container-game:hover img {
+    transform: scale(1.1,1.1);
+}
 section#fourth .border-btn-custom {
     margin-bottom: 24px;
 }
@@ -423,6 +428,10 @@ section#eighth img {
     width: 100%;
     margin-bottom: 48px;
 }
+section#eighth a:hover img {
+    transform: scale(1.1,1.1);
+}
+
 
 /* FOOTER  */
 footer {
