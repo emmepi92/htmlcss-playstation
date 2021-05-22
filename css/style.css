@@ -152,7 +152,7 @@ header .bg-fluid {
     background-color: rgba(0,0,0,.4);
     border-radius: 30px;
     padding: 5px;
-    visibility: hidden;
+    visibility: visible;
 }
 
 .jumbo-container img {
@@ -486,6 +486,9 @@ footer .footer-item:last-child svg {
 
 
 @media screen and (min-width: 992px) {
+    .jumbo-container {
+        visibility: hidden;
+    }
 
     [id^="text-jumbo"] {
         animation-iteration-count: infinite;
