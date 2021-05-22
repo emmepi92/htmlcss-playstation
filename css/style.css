@@ -275,6 +275,8 @@ section#first .col-4.col-md:hover img {
 /* MAIN second section  */
 section#second.bg-fluid {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 section#second.bg-fluid .jumbo-container img {
