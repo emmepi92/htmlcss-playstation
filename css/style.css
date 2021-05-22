@@ -240,7 +240,6 @@ section#first .row.align-items-center div:nth-child(2) {
 
 section#first .img-container-game img{
     width: 60%; 
-    opacity: 0.70;   
 }
 
 section#first .img-container-game  {
@@ -305,7 +304,9 @@ section#third h6 {
 }
 
 section#third img:hover {
-    box-shadow: 0 10px 10px black;
+    box-shadow: 0 15px 15px #666;
+    position: relative;
+    bottom: 15px;
 }
 
 /* MAIN forth section  */
@@ -385,10 +386,9 @@ section#sixth p{
 section#sixth img {
     width: 100%;
     margin-top: 48px;
-    filter: grayscale(50%);
 }
+
 section#sixth img:hover {
-    filter: grayscale(0);
     transform: scale(0.9, 0.9);
     border-radius: 30px;
 }
@@ -489,6 +489,10 @@ footer .footer-item:last-child svg {
     .jumbo-container {
         visibility: hidden;
     }
+    section#first .img-container-game img{
+        opacity: 0.70;   
+    }
+    
 
     [id^="text-jumbo"] {
         animation-iteration-count: infinite;
