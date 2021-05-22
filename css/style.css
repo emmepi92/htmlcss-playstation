@@ -132,6 +132,7 @@ header .bg-fluid {
     background-image: url(../img/jumbo-bg.png);
 }
 
+
 .jumbo-container {    
     color: white;
     font-weight: 600;
@@ -148,6 +149,8 @@ header .bg-fluid {
     font-size: 18px;
     margin-top: 24px;
 }
+
+
 
 header .img-container-game img {
     width: 100%;
@@ -175,6 +178,18 @@ section#second .border-btn-custom:hover{
     border: 2px solid rgb(205, 61, 15);
 }
 
+#bg-jumbo {
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-name: jumbo-animation;
+}
+
+@keyframes jumbo-animation {
+    45% {background-image: url(../img/jumbo-bg.png);}
+    50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
+    95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
+}
+
 [id^="img-container"] {
     animation-iteration-count: infinite;
     animation-duration: 30s;
@@ -198,8 +213,8 @@ section#second .border-btn-custom:hover{
 }
 
 @keyframes img-animation {
-    0% {border: 3px solid rgba(64, 149, 218); opacity: 1;}
-    16% {border: 3px solid rgba(64, 149, 218);opacity: 1;}
+    0% {border: 3px solid rgba(45, 100, 230); opacity: 1;}
+    16% {border: 3px solid rgba(45, 100, 230);opacity: 1;}
     17% {border: 3px solid white;opacity: 0.8;}   
 }
 /* MAIN  first section*/
