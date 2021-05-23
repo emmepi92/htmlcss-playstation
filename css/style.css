@@ -326,16 +326,17 @@ header .border-btn-custom:hover,
 }
 
 #fourth-section h2 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
-
 
 #fourth-section img {
     width: 100%;
 }
+
 #fourth-section .img-container-game:hover img {
-    transform: scale(1.1,1.1);
+    transform: scale(1.2,1.2);
 }
+
 #fourth-section .border-btn-custom {
     margin-bottom: 24px;
 }
@@ -386,11 +387,15 @@ header .border-btn-custom:hover,
 #sixth-section img {
     width: 100%;
     margin-top: 48px;
+    transition: all 1s;
 }
 
 #sixth-section img:hover {
     transform: scale(0.9, 0.9);
     border-radius: 30px;
+}
+#sixth-section img:active {
+    filter: blur(5px);
 }
 
 /* MAIN section seventh  */
@@ -440,11 +445,19 @@ header .border-btn-custom:hover,
 #eighth-section img {
     width: 100%;
     margin-bottom: 48px;
+    transition: all 1s;
 }
+
 #eighth-section a:hover img {
     transform: scale(1.1,1.1);
     box-shadow: 10px 10px 10px gray;
     filter: contrast(200%);
+}
+
+#eighth-section a:active img {
+    border-radius: 20px;
+    transform: scale(0.8, 0.8);
+
 }
 
 
