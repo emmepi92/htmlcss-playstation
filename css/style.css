@@ -177,12 +177,12 @@ header .img-container-game img {
 }
 
 header .btn-custom,
-section#second .btn-custom {
+#second-section .btn-custom {
     background-color: rgb(205, 61, 15);
 }
 
 header .border-btn-custom:hover, 
-section#second .border-btn-custom:hover{
+#second-section .border-btn-custom:hover{
     border: 2px solid rgb(205, 61, 15);
 }
 
@@ -215,7 +215,7 @@ section#second .border-btn-custom:hover{
 }
 
 /* MAIN  first section*/
-section#first {
+#first-section {
     margin-top: 96px;
     margin-bottom: 96px;
 }
@@ -225,58 +225,58 @@ section#first {
     font-weight: bold;
 }
 
-section#first  img {
+#first-section  img {
     width: 100%;
 }
 
-section#first .btn-custom ,
-section#fourth .btn-custom {
+#first-section .btn-custom ,
+#fourth-section .btn-custom {
     background-color: rgb(45, 100, 230);
 }
 
-section#first .row.align-items-center div:nth-child(2) {
+#first-section .row.align-items-center div:nth-child(2) {
     margin-top: 48px;    /* useful for margin in xs-sm devices, without using media query */
 }
 
-section#first .img-container-game img{
+#first-section .img-container-game img{
     width: 60%; 
 }
 
-section#first .img-container-game  {
+#first-section .img-container-game  {
     text-align: center;
 }
 
-section#first p {
+#first-section p {
     font-size: 18px;
 }
 
-section#first .col-4.col-md {
+#first-section .col-4.col-md {
     border-bottom: 2px solid white;
 }
 
-section#first .border-btn-custom:hover,
-section#fourth .border-btn-custom:hover {
+#first-section .border-btn-custom:hover,
+#fourth-section .border-btn-custom:hover {
     border: 2px solid rgb(45, 100, 230);
 }
 
-section#first .col-4.col-md:hover {    
+#first-section .col-4.col-md:hover {    
     border-bottom: 2px solid rgb(64, 149, 218);
 }
 
-section#first .col-4.col-md:hover img {
+#first-section .col-4.col-md:hover img {
     opacity: 1;
     transform: scale(1.1,1.1);
 
 }
 
 /* MAIN second section  */
-section#second.bg-fluid {
+#second-section.bg-fluid {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-section#second.bg-fluid .jumbo-container img {
+#second-section.bg-fluid .jumbo-container img {
     margin-top: 24px;
 }
 
@@ -287,161 +287,161 @@ section#second.bg-fluid .jumbo-container img {
     padding-top: 48px;
 }  /* usare padding sul fluid o margin sul container  */
 
-section#third h4 {
+#third-section h4 {
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-section#third img {
+#third-section img {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 5px;
 }
 
-section#third h6 {
+#third-section h6 {
     font-weight: bold;
     margin-bottom: 48px;
 }
 
-section#third img:hover {
+#third-section img:hover {
     box-shadow: 0 15px 15px #666;
     position: relative;
     bottom: 15px;
 }
 
 /* MAIN forth section  */
-section#fourth {
+#fourth-section {
     margin-bottom: 24px;
 }
 
-section#fourth h1{
+#fourth-section h1{
     margin-top: 24px;
 }
 
-section#fourth p {
+#fourth-section p {
     margin-top: 24px;
     line-height: 22px;
     font-size: 20px;
     margin-bottom: 36px;
 }
 
-section#fourth h2 {
+#fourth-section h2 {
     margin-top: 10px;
 }
 
 
-section#fourth img {
+#fourth-section img {
     width: 100%;
 }
-section#fourth .img-container-game:hover img {
+#fourth-section .img-container-game:hover img {
     transform: scale(1.1,1.1);
 }
-section#fourth .border-btn-custom {
+#fourth-section .border-btn-custom {
     margin-bottom: 24px;
 }
 
 /* MAIN fifth section  */
-section#fifth {
+#fifth-section {
     background-color: rgb(190, 188, 187);
     font-weight: 600;
 }
 
-section#fifth .col-12.col-md-6 img {
+#fifth-section .col-12.col-md-6 img {
     width: 60%;
     margin-top: 36px;  /* useful for margin in xs-sm devices, without using media query */
 }
 
-section#fifth p {
+#fifth-section p {
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-section#fifth .btn-custom {
+#fifth-section .btn-custom {
     color: rgb(6, 117, 207);
     background-color: rgb(217,218,220);
     font-weight: bold;
 }
-section#fifth .border-btn-custom {
+#fifth-section .border-btn-custom {
     margin-bottom: 36px; /* useful for margin in xs-sm devices, without using media query */
 
 }
 
-section#fifth .d-none.d-md-flex img{
+#fifth-section .d-none.d-md-flex img{
     width: 100%;
 }
 
-section#fifth .border-btn-custom:hover {
+#fifth-section .border-btn-custom:hover {
     border: 2px solid rgb(217,218,220);
 }
 
 /* MAIN section sixth  */
-section#sixth {
+#sixth-section {
     margin-top: 48px;
     margin-bottom: 48px;
 }
 
-section#sixth p{
+#sixth-section p{
     font-size: 18px;
 }
-section#sixth img {
+#sixth-section img {
     width: 100%;
     margin-top: 48px;
 }
 
-section#sixth img:hover {
+#sixth-section img:hover {
     transform: scale(0.9, 0.9);
     border-radius: 30px;
 }
 
 /* MAIN section seventh  */
-section#seventh {
+#seventh-section {
     background-color: rgb(22, 28, 59);
 }
 
-section#seventh .col-12.col-md-6 img {
+#seventh-section .col-12.col-md-6 img {
     width: 60%;
     margin-top: 48px;
 }
 
-section#seventh p {
+#seventh-section p {
     color: white;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-section#seventh .btn-custom {
+#seventh-section .btn-custom {
     background-color: white;
     color: black;
     
 }
 
-section#seventh .border-btn-custom {
+#seventh-section .border-btn-custom {
     margin-bottom: 48px;
 }
 
-section#seventh .d-none.d-md-flex img {
+#seventh-section .d-none.d-md-flex img {
     width: 100%;
 }
 
-section#seventh .border-btn-custom:hover {
+#seventh-section .border-btn-custom:hover {
     border: 2px solid white;
 }
 
 /* MAIN section eighth  */
-section#eighth {
+#eighth-section {
     margin-top: 48px;
     margin-bottom: 48px;
 }
 
-section#eighth h2{
+#eighth-section h2{
     margin-bottom: 48px;
 }
 
-section#eighth img {
+#eighth-section img {
     width: 100%;
     margin-bottom: 48px;
 }
-section#eighth a:hover img {
+#eighth-section a:hover img {
     transform: scale(1.1,1.1);
     box-shadow: 10px 10px 10px gray;
     filter: contrast(200%);
@@ -489,7 +489,7 @@ footer .footer-item:last-child svg {
     .jumbo-container {
         visibility: hidden;
     }
-    section#first .img-container-game img{
+    #first-section .img-container-game img{
         opacity: 0.70;   
     }
     
