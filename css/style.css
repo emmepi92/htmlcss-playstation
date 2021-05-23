@@ -134,18 +134,6 @@ header .bg-fluid {
     padding-top: 100px;
 }
 
-#bg-jumbo {
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-name: jumbo-animation;
-}
-
-@keyframes jumbo-animation {
-    45% {background-image: url(../img/jumbo-bg.png);}
-    50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
-    95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
-}
-
 .jumbo-container {    
     color: white;
     font-weight: 600;
@@ -498,13 +486,28 @@ footer .footer-item:last-child svg {
 }
 
 
+
 @media screen and (min-width: 992px) {
     .jumbo-container {
         visibility: hidden;
     }
+    
     #first-section .img-container-game img{
         opacity: 0.70;   
     }
+    
+    #bg-jumbo {
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-name: jumbo-animation;
+    }
+    
+    @keyframes jumbo-animation {
+        45% {background-image: url(../img/jumbo-bg.png);}
+        50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
+        95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
+    }
+    
     
 
     [id^="text-jumbo"] {
