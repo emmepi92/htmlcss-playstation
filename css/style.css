@@ -161,14 +161,15 @@ header .img-container-game img {
     margin-top: 24px;
     margin-bottom: 24px;
     border: 3px solid white;
+    opacity: 0.8;
 }
+
 header .img-container-game:hover img {
     border: 3px solid rgba(45, 100, 230) !important ;
     opacity: 1 !important;
     box-shadow: 0 10px 10px gray;
     position: relative;
     bottom: 10px;
-
 }
 
 header .btn-custom,
@@ -180,7 +181,33 @@ header .border-btn-custom:hover,
 #second-section .border-btn-custom:hover{
     border: 2px solid rgb(205, 61, 15);
 }
+[id^="img-"] {
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-name: img-animation;
+}
 
+#img-2{
+    animation-delay:5s;
+}
+#img-3{
+    animation-delay:10s;
+}
+#img-4{
+    animation-delay:15s;
+}
+#img-5{
+    animation-delay:20s;
+}
+#img-6{
+    animation-delay:25s;
+}
+
+@keyframes img-animation {
+    0% {border: 3px solid rgba(45, 100, 230); opacity: 1;}
+    16% {border: 3px solid rgba(45, 100, 230);opacity: 1;}
+    17% {border: 3px solid white;opacity: 0.8;} 
+}
 
 /* MAIN  first section*/
 #first-section {
@@ -481,11 +508,7 @@ footer .footer-item:last-child svg {
     .bg-container {
         visibility: hidden;
     }    
-    
-    header .img-container-game img {
-        opacity: 0.8;
-    }
-    
+       
     #bg-jumbo {
         animation-iteration-count: infinite;
         animation-duration: 10s;
@@ -498,34 +521,6 @@ footer .footer-item:last-child svg {
         95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
     }
     
-    [id^="img-"] {
-        animation-iteration-count: infinite;
-        animation-duration: 30s;
-        animation-name: img-animation;
-    }
-
-    #img-2{
-        animation-delay:5s;
-    }
-    #img-3{
-        animation-delay:10s;
-    }
-    #img-4{
-        animation-delay:15s;
-    }
-    #img-5{
-        animation-delay:20s;
-    }
-    #img-6{
-        animation-delay:25s;
-    }
-
-    @keyframes img-animation {
-        0% {border: 3px solid rgba(45, 100, 230); opacity: 1;}
-        16% {border: 3px solid rgba(45, 100, 230);opacity: 1;}
-        17% {border: 3px solid white;opacity: 0.8;} 
-    }
-
     [id^="text-jumbo"] {
         animation-iteration-count: infinite;
         animation-duration: 10s;
