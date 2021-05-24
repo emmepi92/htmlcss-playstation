@@ -3,6 +3,7 @@
     background-position: center;
     background-size: cover;
 }
+
 .btn-custom{
     border-radius: 30px;
     padding: 8px 15px;
@@ -10,6 +11,7 @@
     display: inline-block;
     font-weight: 500;
 }
+
 .p-gray {
     color: #888;
     font-weight: 600;
@@ -60,7 +62,6 @@ nav.nav-menu{
     flex-basis: auto;
     padding: 5px 10px;   /* same padding like li in expanded nav, so the height will not change */
 }
-
 
 /* using bootstrap's hamburger menu */
 .navbar-toggler {
@@ -113,7 +114,8 @@ nav.nav-menu li a:hover i,
 nav.nav-menu li:hover {
     color: blue;
 }
-        /* for lens to stay black in hover  */
+
+/* for lens to stay black in hover  */
 nav.nav-menu  ul:last-child  li:last-child:hover i{
  color: black;
 }
@@ -145,7 +147,6 @@ header .bg-fluid {
 
 .jumbo-container img {
     width: 70%;
-    /* margin-top: 200px; */
     margin-bottom: 24px;
 }
 
@@ -274,6 +275,7 @@ header .border-btn-custom:hover,
     color: white;
     padding-top: 48px;
 }  /* usare padding sul fluid o margin sul container  */
+
 #third-section h4 {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -289,9 +291,11 @@ header .border-btn-custom:hover,
     font-weight: bold;
     margin-bottom: 48px;
 }
+
 #third-section img {
     transition: all 1s;
 }
+
 #third-section .img-container-game:hover img {
     box-shadow: 0 15px 15px #666;
     position: relative;
@@ -355,9 +359,9 @@ header .border-btn-custom:hover,
     background-color: rgb(217,218,220);
     font-weight: bold;
 }
+
 #fifth-section .border-btn-custom {
     margin-bottom: 36px; /* useful for margin in xs-sm devices, without using media query */
-
 }
 
 #fifth-section .d-none.d-md-flex img{
@@ -377,6 +381,7 @@ header .border-btn-custom:hover,
 #sixth-section p{
     font-size: 18px;
 }
+
 #sixth-section img {
     width: 100%;
     margin-top: 48px;
@@ -387,6 +392,7 @@ header .border-btn-custom:hover,
     transform: scale(0.9, 0.9);
     border-radius: 30px;
 }
+
 #sixth-section img:active {
     filter: blur(5px);
 }
@@ -409,8 +415,7 @@ header .border-btn-custom:hover,
 
 #seventh-section .btn-custom {
     background-color: white;
-    color: black;
-    
+    color: black; 
 }
 
 #seventh-section .border-btn-custom {
@@ -452,7 +457,6 @@ header .border-btn-custom:hover,
     transform: scale(0.8, 0.8);
 }
 
-
 /* FOOTER  */
 footer {
     padding-top: 48px;
@@ -473,6 +477,7 @@ footer ul {
     list-style-type: none;
     margin-top: 5px;
 }
+
 footer ul li {
     margin-bottom: 10px;
 }
@@ -488,8 +493,6 @@ footer .footer-item {
 footer .footer-item:last-child svg {
     margin-bottom: 12px;
 }
-
-
 
 @media screen and (min-width: 992px) {
     .jumbo-container {
@@ -511,8 +514,6 @@ footer .footer-item:last-child svg {
         50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
         95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
     }
-    
-    
 
     [id^="text-jumbo"] {
         animation-iteration-count: infinite;
@@ -525,11 +526,9 @@ footer .footer-item:last-child svg {
     }    
 
     @keyframes jumbo-text {
-        /* 0% {visibility: hidden} */
         45% {visibility: visible;}
         46% {visibility: hidden;}
         100% {visibility: hidden;}
-        /* 86% {visibility: hidden;} */
     }
     /* can't use animation with display:none 
     only way to play is to use the visibility */
