@@ -118,7 +118,7 @@ nav.nav-menu li.border-btn-custom{
 
 nav ul.first-menu li:not(li:first-child):hover::after,
 nav ul:last-child li:first-child:hover::after,
-nav.nav-menu li:hover {
+nav.nav-menu ul:not(ul:only-child) li:not(li:only-child):hover {
     color: blue;
 }
 
@@ -130,10 +130,6 @@ nav.nav-menu  ul:last-child  li:last-child:hover i{
 nav.nav-menu li.border-btn-custom:hover{
     border: 2px solid black;
     opacity: 0.8;
-}
-
-nav.nav-menu li.border-btn-custom:hover a{
-color: white;
 }
 
 /* HEADER  */
