@@ -138,9 +138,9 @@ header .bg-fluid {
 .bg-container {    
     color: white;
     font-weight: 600;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.6);
     border-radius: 30px;
-    padding: 5px;
+    padding: 12px 24px;
     visibility: visible;
 }
 
@@ -490,25 +490,25 @@ footer .footer-item:last-child svg {
         95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
     }
     
-    [id^="img-container"] {
+    [id^="img-"] {
         animation-iteration-count: infinite;
         animation-duration: 30s;
         animation-name: img-animation;
     }
 
-    #img-container-2{
+    #img-2{
         animation-delay:5s;
     }
-    #img-container-3{
+    #img-3{
         animation-delay:10s;
     }
-    #img-container-4{
+    #img-4{
         animation-delay:15s;
     }
-    #img-container-5{
+    #img-5{
         animation-delay:20s;
     }
-    #img-container-6{
+    #img-6{
         animation-delay:25s;
     }
 
