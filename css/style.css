@@ -366,10 +366,7 @@ header .border-btn-custom:hover,
 #sixth-section img:hover {
     transform: scale(0.9, 0.9);
     border-radius: 30px;
-}
-
-#sixth-section img:active {
-    filter: blur(5px);
+    box-shadow: 20px 20px 20px ;
 }
 
 /* MAIN section seventh  */
