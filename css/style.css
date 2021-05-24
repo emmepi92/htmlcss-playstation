@@ -162,6 +162,14 @@ header .img-container-game img {
     margin-bottom: 24px;
     border: 3px solid white;
 }
+header .img-container-game:hover img {
+    border: 3px solid rgba(45, 100, 230) !important ;
+    opacity: 1 !important;
+    box-shadow: 0 10px 10px gray;
+    position: relative;
+    bottom: 10px;
+
+}
 
 header .btn-custom,
 #second-section .btn-custom {
