@@ -165,7 +165,6 @@ header .img-container-game img {
     margin-top: 24px;
     margin-bottom: 24px;
     border: 3px solid white;
-    opacity: 0.8;
 }
 
 header .btn-custom,
@@ -480,10 +479,10 @@ footer .footer-item:last-child svg {
 @media screen and (min-width: 992px) {
     .bg-container {
         visibility: hidden;
-    }
+    }    
     
-    #first-section .img-container-game img{
-        opacity: 0.70;   
+    header .img-container-game img {
+        opacity: 0.8;
     }
     
     #bg-jumbo {
@@ -497,7 +496,6 @@ footer .footer-item:last-child svg {
         50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
         95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
     }
-
     
     [id^="img-container"] {
         animation-iteration-count: infinite;
@@ -544,4 +542,8 @@ footer .footer-item:last-child svg {
     }
     /* can't use animation with display:none 
     only way to play is to use the visibility */
+
+    #first-section .img-container-game img{
+        opacity: 0.70;   
+    }
 }
