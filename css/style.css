@@ -291,8 +291,9 @@ header .border-btn-custom:hover,
     margin-bottom: 48px;
 }
 
-#third-section .img-container-game {
+#third-section a {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
