@@ -274,7 +274,6 @@ header .border-btn-custom:hover,
     color: white;
     padding-top: 48px;
 }  /* usare padding sul fluid o margin sul container  */
-
 #third-section h4 {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -290,7 +289,9 @@ header .border-btn-custom:hover,
     font-weight: bold;
     margin-bottom: 48px;
 }
-
+#third-section img {
+    transition: all 1s;
+}
 #third-section .img-container-game:hover img {
     box-shadow: 0 15px 15px #666;
     position: relative;
@@ -449,7 +450,6 @@ header .border-btn-custom:hover,
 #eighth-section a:active img {
     border-radius: 20px;
     transform: scale(0.8, 0.8);
-
 }
 
 
