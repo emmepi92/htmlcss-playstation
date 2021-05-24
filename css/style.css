@@ -178,33 +178,6 @@ header .border-btn-custom:hover,
     border: 2px solid rgb(205, 61, 15);
 }
 
-[id^="img-container"] {
-    animation-iteration-count: infinite;
-    animation-duration: 30s;
-    animation-name: img-animation;
-}
-
-#img-container-2{
-    animation-delay:5s;
-}
-#img-container-3{
-    animation-delay:10s;
-}
-#img-container-4{
-    animation-delay:15s;
-}
-#img-container-5{
-    animation-delay:20s;
-}
-#img-container-6{
-    animation-delay:25s;
-}
-
-@keyframes img-animation {
-    0% {border: 3px solid rgba(45, 100, 230); opacity: 1;}
-    16% {border: 3px solid rgba(45, 100, 230);opacity: 1;}
-    17% {border: 3px solid white;opacity: 0.8;} 
-}
 
 /* MAIN  first section*/
 #first-section {
@@ -523,6 +496,35 @@ footer .footer-item:last-child svg {
         45% {background-image: url(../img/jumbo-bg.png);}
         50% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);}
         95% {background-image: url(../img/ratchet-and-clank-wall-paper.jpg);} 
+    }
+
+    
+    [id^="img-container"] {
+        animation-iteration-count: infinite;
+        animation-duration: 30s;
+        animation-name: img-animation;
+    }
+
+    #img-container-2{
+        animation-delay:5s;
+    }
+    #img-container-3{
+        animation-delay:10s;
+    }
+    #img-container-4{
+        animation-delay:15s;
+    }
+    #img-container-5{
+        animation-delay:20s;
+    }
+    #img-container-6{
+        animation-delay:25s;
+    }
+
+    @keyframes img-animation {
+        0% {border: 3px solid rgba(45, 100, 230); opacity: 1;}
+        16% {border: 3px solid rgba(45, 100, 230);opacity: 1;}
+        17% {border: 3px solid white;opacity: 0.8;} 
     }
 
     [id^="text-jumbo"] {
