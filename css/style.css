@@ -122,11 +122,6 @@ nav.nav-menu li:not(li:only-child):hover {
     color: blue;
 }
 
-/* for lens to stay black in hover  */
-nav.nav-menu  ul:last-child  li:last-child:hover i{
- color: black;
-}
-
 nav.nav-menu li.border-btn-custom:hover{
     border: 2px solid black;
     opacity: 0.8;
