@@ -118,7 +118,8 @@ nav.nav-menu li.border-btn-custom{
 
 nav ul.first-menu li:not(li:first-child):hover::after,
 nav ul:last-child li:first-child:hover::after,
-nav.nav-menu li:not(li:only-child):hover {
+nav ul.first-menu li:not(li:first-child):hover,
+nav > ul:last-child > li:first-child:hover {
     color: blue;
 }
 
