@@ -291,10 +291,19 @@ header .border-btn-custom:hover,
     margin-bottom: 48px;
 }
 
-#third-section img:hover {
+#third-section .img-container-game {
+    display: flex;
+    justify-content: center;
+}
+
+#third-section .img-container-game:hover img {
     box-shadow: 0 15px 15px #666;
     position: relative;
     bottom: 15px;
+}
+
+#third-section .img-container-game:hover h6 {
+    transform: scale(1.2,1.2);
 }
 
 /* MAIN forth section  */
