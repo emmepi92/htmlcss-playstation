@@ -98,10 +98,16 @@ nav.nav-menu{
     background-color: #333;
 }
 
-.nav-menu ul li i.fa-chevron-down {
+nav ul.first-menu li:not(li:first-child)::after,
+nav > ul:last-child > li:first-child::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
     font-size: 0.7em;
+    margin-left: 7px;
     color: #aaa;
-    margin-left: 5px;
 }
 
 nav.nav-menu li.border-btn-custom{
@@ -110,7 +116,8 @@ nav.nav-menu li.border-btn-custom{
     border: 2px solid white;
 }
 
-nav.nav-menu li a:hover i,
+nav ul.first-menu li:not(li:first-child):hover::after,
+nav ul:last-child li:first-child:hover::after,
 nav.nav-menu li:hover {
     color: blue;
 }
@@ -136,7 +143,7 @@ header .bg-fluid {
     padding-top: 100px;
 }
 
-.jumbo-container {    
+.bg-container {    
     color: white;
     font-weight: 600;
     background-color: rgba(0,0,0,.4);
@@ -145,12 +152,12 @@ header .bg-fluid {
     visibility: visible;
 }
 
-.jumbo-container img {
+.bg-container img {
     width: 70%;
     margin-bottom: 24px;
 }
 
-.jumbo-container p {
+.bg-container p {
     font-size: 18px;
     margin-top: 24px;
 }
@@ -228,7 +235,7 @@ header .border-btn-custom:hover,
 }
 
 #first-section .img-container-game img{
-    width: 60%; 
+    width: 100%; 
 }
 
 #first-section .img-container-game  {
@@ -265,7 +272,7 @@ header .border-btn-custom:hover,
     padding-bottom: 50px;
 }
 
-#second-section.bg-fluid .jumbo-container img {
+#second-section.bg-fluid .bg-container img {
     margin-top: 24px;
 }
 
@@ -494,8 +501,15 @@ footer .footer-item:last-child svg {
     margin-bottom: 12px;
 }
 
+@media screen and (min-width: 768px) {
+    #first-section .img-container-game img{
+        width: 60%; 
+    }
+
+}
+
 @media screen and (min-width: 992px) {
-    .jumbo-container {
+    .bg-container {
         visibility: hidden;
     }
     
