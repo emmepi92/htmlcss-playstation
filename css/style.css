@@ -164,11 +164,12 @@ header .img-container-game img {
 }
 
 header .img-container-game:hover img {
-    border: 3px solid rgba(45, 100, 230) !important ;
+    border: none !important ;
     opacity: 1 !important;
     box-shadow: 0 10px 10px gray;
     position: relative;
     bottom: 10px;
+    padding: 0 !important;
 }
 
 header .btn-custom,
